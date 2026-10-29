@@ -7,11 +7,10 @@ def find_first(values, target):
         if values[i] == target:
             return i
     return -1
-
+  
 def summarize(values):
     stats_record = (min(values), max(values), sum(values))
     return stats_record
-
 
 num_days = int(input("Enter the number of days: "))
 
